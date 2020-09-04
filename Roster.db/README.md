@@ -4,5 +4,8 @@ The project is written in Python and the result is as following.
  <img  src="Roster.PNG" width=500>
   </div>
    <div style="float:center">
- <img  src="SQLiteResult.PNG" width=500>
+ <img  src="Userdb.PNG" width=500>
+  </div>
+ <div style="float:center">
+ <img  src="Coursedb.PNG" width=500>
   </div>

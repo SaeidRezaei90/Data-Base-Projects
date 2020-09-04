@@ -47,8 +47,7 @@ for element in json_data:
   print((name,convertIntegerRoleToString(role),title))
 
   #Insert data DB
-  cur.execute('''insert or ignore into User (name) values (?)''',(name,))
-  cur.execute(''' insert into User(role) values (?)''',(role,))
+  cur.execute('''insert or ignore into User (name,role) values (?,?)''',(name,role))
   cur.execute('''select id from User where name=? ''',(name,))
   user_id = cur.fetchone()[0]
 

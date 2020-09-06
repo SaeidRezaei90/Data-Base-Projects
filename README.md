@@ -1,2 +1,2 @@
 # Data-Base-Projects
-This folder contains my DB projects using Sqlite
+Data and scripts from the [PY4E](py4e.com/lessons/database) Using Databases with Python assessments.
